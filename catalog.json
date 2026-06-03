@@ -1,0 +1,12 @@
+{
+  "catalogVersion": 1,
+  "scope": "@community",
+  "description": "Curation Labs Darwinian Harness Cards Catalog V1",
+  "homepage": "https://github.com/curation-labs/dh-cards-catalog-v1",
+  "cards": [],
+  "maintainers": [
+    {
+      "name": "Curation Labs"
+    }
+  ]
+}
