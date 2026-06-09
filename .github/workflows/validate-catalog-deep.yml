@@ -1,0 +1,22 @@
+name: Validate Catalog Deep
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 9 * * 1"
+
+jobs:
+  validate:
+    name: Deep validate catalog.json
+    if: ${{ vars.DRWN_VERSION != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: curation-labs/drwn-validate-action@v1
+        with:
+          mode: catalog
+          path: catalog.json
+          deep: "true"
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          drwn-version: ${{ vars.DRWN_VERSION }}

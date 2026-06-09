@@ -16,7 +16,9 @@
       "tags": [
         "harness",
         "skills"
-      ]
+      ],
+      "stability": "experimental",
+      "lastValidatedWith": "0.2.1"
     },
     {
       "name": "live-context",
