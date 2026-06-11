@@ -17,6 +17,16 @@
         "harness",
         "skills"
       ]
+    },
+    {
+      "name": "math-research-helper",
+      "url": "git+https://github.com/junggyubae/math-research-helper.git#v1.0.2",
+      "description": "Mathematical research rigor toolkit — anchors problems against known results, audits proofs step-by-step, stress-tests claims against edge cases, locates core difficulty, and guards against fabricated rigor in write-ups. Includes search MCPs for literature lookup.",
+      "tags": [
+        "math",
+        "proof-verification",
+        "research"
+      ]
     }
   ],
   "maintainers": [
