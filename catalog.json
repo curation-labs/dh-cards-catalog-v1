@@ -20,7 +20,7 @@
     },
     {
       "name": "live-context",
-      "url": "git+https://github.com/leeminseung/live-context.git#v0.3.0",
+      "url": "git+https://github.com/leeminseung/live-context.git#v0.4.0",
       "description": "Personal context assistant card. Encodes meeting recordings into corrected, speaker-mapped transcripts, organizes them in a dated memory folder with persistent conventions, and connects workspace apps such as Notion and Slack with the discipline to write into them safely.",
       "tags": [
         "meetings",
