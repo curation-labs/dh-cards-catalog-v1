@@ -19,6 +19,16 @@
       ]
     },
     {
+      "name": "live-context",
+      "url": "git+https://github.com/leeminseung/live-context.git#v0.1.0",
+      "description": "Live-context personal assistant card: turn meeting recordings into corrected, organized, recallable personal context — transcribe with diarization, apply a reusable ASR correction glossary, file finalized transcripts into a dated memory folder, and extract action items into todo lists or shared timelines.",
+      "tags": [
+        "meetings",
+        "personal-context",
+        "transcription"
+      ]
+    },
+    {
       "name": "math-research-helper",
       "url": "git+https://github.com/junggyubae/math-research-helper.git#v1.0.2",
       "description": "Mathematical research rigor toolkit — anchors problems against known results, audits proofs step-by-step, stress-tests claims against edge cases, locates core difficulty, and guards against fabricated rigor in write-ups. Includes search MCPs for literature lookup.",
