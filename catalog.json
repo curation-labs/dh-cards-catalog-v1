@@ -20,8 +20,8 @@
     },
     {
       "name": "live-context",
-      "url": "git+https://github.com/leeminseung/live-context.git#v0.1.0",
-      "description": "Live-context personal assistant card: turn meeting recordings into corrected, organized, recallable personal context — transcribe with diarization, apply a reusable ASR correction glossary, file finalized transcripts into a dated memory folder, and extract action items into todo lists or shared timelines.",
+      "url": "git+https://github.com/leeminseung/live-context.git#v0.2.0",
+      "description": "Live context personal assistant card. Captures meeting recordings into diarized transcripts, enriches them with evidence-based speaker mapping and a reusable ASR glossary, files them into a dated personal memory folder, and recalls decisions, commitments, and action items on demand.",
       "tags": [
         "meetings",
         "personal-context",
