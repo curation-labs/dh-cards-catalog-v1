@@ -16,9 +16,7 @@
       "tags": [
         "harness",
         "skills"
-      ],
-      "stability": "experimental",
-      "lastValidatedWith": "0.2.1"
+      ]
     },
     {
       "name": "live-context",
@@ -29,6 +27,11 @@
         "personal-context",
         "workspace"
       ]
+    },
+    {
+      "name": "live-context-extended",
+      "url": "git+https://github.com/curation-labs/live-context-extended.git#v0.1.0",
+      "description": "Team-owned variant of @leeminseung/live-context for Curation Labs. Same three personal-context skills (meeting transcript encoding, dated memory organization, standing conduct policies) plus Notion and Slack MCPs. Intended to evolve with team-specific conventions on top of Matt's baseline."
     },
     {
       "name": "math-research-helper",
