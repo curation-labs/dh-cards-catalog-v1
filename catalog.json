@@ -19,6 +19,18 @@
       ]
     },
     {
+      "name": "fal",
+      "url": "git+https://github.com/remyjkim/fal.git#v0.2.1",
+      "description": "fal.ai image/video/audio generation for any harness: the hosted fal MCP over 1,000+ models (Flux, Veo, Kling, Sora) authenticated with a bearer FAL_AI_API_KEY.",
+      "tags": [
+        "audio",
+        "fal",
+        "image",
+        "media",
+        "video"
+      ]
+    },
+    {
       "name": "live-context",
       "url": "git+https://github.com/leeminseung/live-context.git#v0.5.0",
       "description": "Personal context assistant card. Encodes meeting recordings into corrected, speaker-mapped transcripts, organizes them in a dated memory folder with persistent conventions, and connects workspace apps such as Notion and Slack with the discipline to write into them safely.",
