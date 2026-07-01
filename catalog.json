@@ -6,7 +6,7 @@
   "cards": [
     {
       "name": "deep-research",
-      "url": "git+https://github.com/leeminseung/deep-research.git#v0.1.0",
+      "url": "git+https://github.com/curation-labs/deep-research.git#v0.1.0",
       "description": "Darwinian Minds card bundling the deep-research skill: plan sub-questions, fan out web searches, read primary sources, adversarially verify load-bearing claims, and synthesize a cited report. Skill-only, no MCP servers."
     },
     {
