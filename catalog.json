@@ -79,6 +79,11 @@
       "name": "pr-reviewer",
       "url": "git+https://github.com/junggyubae/pr-reviewer.git#v1.7.0",
       "description": "Intent-aligned PR reviewer with structured JSON output and six-criterion rubric"
+    },
+    {
+      "name": "researcher",
+      "url": "git+https://github.com/curation-labs/darwinian-researcher.git#v0.1.0",
+      "description": "Composable research role: investigate one angle and return sourced findings. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
     }
   ],
   "maintainers": [
