@@ -64,6 +64,11 @@
         "notion",
         "workspace"
       ]
+    },
+    {
+      "name": "pr-reviewer",
+      "url": "git+https://github.com/junggyubae/pr-reviewer.git#v1.7.0",
+      "description": "Intent-aligned PR reviewer with structured JSON output and six-criterion rubric"
     }
   ],
   "maintainers": [
