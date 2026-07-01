@@ -31,6 +31,11 @@
       ]
     },
     {
+      "name": "knowledge-docs",
+      "url": "git+https://github.com/remyjkim/knowledge-docs-card.git#v1.0.0",
+      "description": "Keep knowledge documentation in sync with the codebase: draft new docs from the code, audit existing docs for drift, and restructure them into a categorized hierarchy."
+    },
+    {
       "name": "live-context",
       "url": "git+https://github.com/leeminseung/live-context.git#v0.5.0",
       "description": "Personal context assistant card. Encodes meeting recordings into corrected, speaker-mapped transcripts, organizes them in a dated memory folder with persistent conventions, and connects workspace apps such as Notion and Slack with the discipline to write into them safely.",
