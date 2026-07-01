@@ -41,6 +41,11 @@
       ]
     },
     {
+      "name": "gap-filler",
+      "url": "git+https://github.com/curation-labs/darwinian-gap-filler.git#v0.1.0",
+      "description": "Composable gap-filling role: close one named gap with sourced findings. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
+    },
+    {
       "name": "knowledge-docs",
       "url": "git+https://github.com/remyjkim/knowledge-docs-card.git#v1.0.0",
       "description": "Keep knowledge documentation in sync with the codebase: draft new docs from the code, audit existing docs for drift, and restructure them into a categorized hierarchy."
