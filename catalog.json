@@ -5,6 +5,11 @@
   "homepage": "https://github.com/curation-labs/dh-cards-catalog-v1",
   "cards": [
     {
+      "name": "critic",
+      "url": "git+https://github.com/curation-labs/darwinian-critic.git#v0.1.0",
+      "description": "Composable critic role: adversarially return a draft's gaps, unsupported claims, and likely errors. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
+    },
+    {
       "name": "deep-research",
       "url": "git+https://github.com/curation-labs/deep-research.git#v0.1.0",
       "description": "Darwinian Minds card bundling the deep-research skill: plan sub-questions, fan out web searches, read primary sources, adversarially verify load-bearing claims, and synthesize a cited report. Skill-only, no MCP servers."
