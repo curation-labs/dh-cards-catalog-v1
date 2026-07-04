@@ -91,6 +91,16 @@
       ]
     },
     {
+      "name": "parallel-search",
+      "url": "git+https://github.com/curation-labs/parallel-search.git#v0.1.0",
+      "description": "Reusable web-search MCP card: real-time web search + fetch (Parallel) for grounding any Darwinian Mind. Bring your own Parallel API key (Bearer service token); works at lower limits without one.",
+      "tags": [
+        "research",
+        "search",
+        "web"
+      ]
+    },
+    {
       "name": "pr-reviewer",
       "url": "git+https://github.com/junggyubae/pr-reviewer.git#v1.7.0",
       "description": "Intent-aligned PR reviewer with structured JSON output and six-criterion rubric"
