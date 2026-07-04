@@ -107,8 +107,8 @@
     },
     {
       "name": "researcher",
-      "url": "git+https://github.com/curation-labs/darwinian-researcher.git#v0.1.0",
-      "description": "Composable research role: investigate one angle and return sourced findings. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
+      "url": "git+https://github.com/curation-labs/darwinian-researcher.git#v0.2.0",
+      "description": "Composable research role: investigate one angle and return sourced findings, grounded with real-time web search (Parallel Search MCP). A deep-research panel role; reusable standalone."
     },
     {
       "name": "synthesizer",
