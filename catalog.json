@@ -5,6 +5,17 @@
   "homepage": "https://github.com/curation-labs/dh-cards-catalog-v1",
   "cards": [
     {
+      "name": "comms-doc-writer",
+      "url": "git+https://github.com/curation-labs/comms-doc-writer.git#v1.0.0",
+      "description": "Communication Docs Writer — regular card that turns code, a topic, or a plan into a clear, external/team-facing document (explainer, architecture overview, communication doc) with diagrams: bundles writing-plans, svg-figure-workflow, descriptive-terms-over-jargon, and avoiding-ai-fingerprints, plus Notion MCP. Subagent-invoked.",
+      "tags": [
+        "communication",
+        "diagrams",
+        "docs",
+        "notion"
+      ]
+    },
+    {
       "name": "critic",
       "url": "git+https://github.com/curation-labs/darwinian-critic.git#v0.1.0",
       "description": "Composable critic role: adversarially return a draft's gaps, unsupported claims, and likely errors. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
