@@ -29,6 +29,17 @@
       ]
     },
     {
+      "name": "external-reporter",
+      "url": "git+https://github.com/curation-labs/external-reporter.git#v1.0.0",
+      "description": "Regular card for external-facing status reporting: bundles the reporting-progress-externally, avoiding-ai-fingerprints, svg-figure-workflow, and descriptive-terms-over-jargon skills plus Notion and Slack MCP. Subagent-invoked.",
+      "tags": [
+        "notion",
+        "reporting",
+        "slack",
+        "writing"
+      ]
+    },
+    {
       "name": "fact-checker",
       "url": "git+https://github.com/curation-labs/darwinian-fact-checker.git#v0.1.0",
       "description": "Composable verification role: verify each load-bearing claim against its cited source. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
