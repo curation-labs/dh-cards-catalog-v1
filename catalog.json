@@ -115,7 +115,7 @@
     },
     {
       "name": "notion",
-      "url": "git+https://github.com/leeminseung/notion.git#v0.1.0",
+      "url": "git+https://github.com/curation-labs/notion.git#v0.1.0",
       "description": "Comprehensive Notion specialist. Full ntn CLI access (raw API, pages, databases, file uploads, workers) and an authoring layer for well-structured pages, safe edits, database queries, and disciplined writing, plus workflow skills for research write-ups, knowledge-base capture, spec-to-implementation tracking, and meeting prep.",
       "tags": [
         "cli",
