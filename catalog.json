@@ -22,8 +22,13 @@
     },
     {
       "name": "deep-research",
-      "url": "git+https://github.com/curation-labs/deep-research.git#v0.1.0",
-      "description": "Darwinian Minds card bundling the deep-research skill: plan sub-questions, fan out web searches, read primary sources, adversarially verify load-bearing claims, and synthesize a cited report. Skill-only, no MCP servers."
+      "url": "git+https://github.com/curation-labs/deep-research-panel.git#v1.0.0",
+      "description": "Deep Research — worker running a multi-agent research panel: the deep-research orchestrator fans out isolated subagents per role (researcher, synthesizer, critic, gap-filler, fact-checker), runs a stateful critic-and-gap-fill loop, and fact-checks before delivering a cited report. Self-contained: bundles all 5 role skills + Parallel Search MCP for web grounding.",
+      "tags": [
+        "multi-agent",
+        "research",
+        "web"
+      ]
     },
     {
       "name": "desktop-e2e-mq8oc2m1",
