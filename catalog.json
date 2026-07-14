@@ -5,17 +5,6 @@
   "homepage": "https://github.com/curation-labs/dh-cards-catalog-v1",
   "cards": [
     {
-      "name": "comms-doc-writer",
-      "url": "git+https://github.com/curation-labs/comms-doc-writer.git#v1.0.0",
-      "description": "Communication Docs Writer — regular card that turns code, a topic, or a plan into a clear, external/team-facing document (explainer, architecture overview, communication doc) with diagrams: bundles writing-plans, svg-figure-workflow, descriptive-terms-over-jargon, and avoiding-ai-fingerprints, plus Notion MCP. Subagent-invoked.",
-      "tags": [
-        "communication",
-        "diagrams",
-        "docs",
-        "notion"
-      ]
-    },
-    {
       "name": "critic",
       "url": "git+https://github.com/curation-labs/darwinian-critic.git#v0.1.0",
       "description": "Composable critic role: adversarially return a draft's gaps, unsupported claims, and likely errors. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
@@ -152,6 +141,36 @@
       "name": "synthesizer",
       "url": "git+https://github.com/curation-labs/darwinian-synthesizer.git#v0.1.0",
       "description": "Composable synthesis role: merge findings into one answer-first, cited draft. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
+    },
+    {
+      "name": "interviewer",
+      "url": "git+https://github.com/curation-labs/interviewer.git#v1.0.0",
+      "description": "Interviewer — interview a person to elicit, develop, and record intent/preferences/decisions: adaptive interviewing + idea development + diverse-option sampling, persisting decisions via the Memory Curator. Subagent-invoked.",
+      "tags": [
+        "elicitation",
+        "interview",
+        "planning"
+      ]
+    },
+    {
+      "name": "memory-curator",
+      "url": "git+https://github.com/curation-labs/memory-curator.git#v1.0.0",
+      "description": "Memory Curator — file-native memory worker: extract salient facts, consolidate (dedup/update, deterministic max-by-time + temporal invalidation, human-gated), and retrieve (reactive, relevance-gated) over a MEMORY.md index + one-fact files. No vector DB. Subagent-invoked.",
+      "tags": [
+        "curation",
+        "file-native",
+        "memory"
+      ]
+    },
+    {
+      "name": "work-planner",
+      "url": "git+https://github.com/curation-labs/work-planner.git#v1.0.0",
+      "description": "Work Planner — turn goals + a time budget into a prioritized, parallelized plan via well-known frameworks (SMART, Eisenhower, MoSCoW, Critical Path, three-point estimation, timeboxing) over recalled context. Subagent-invoked.",
+      "tags": [
+        "planning",
+        "prioritization",
+        "scheduling"
+      ]
     }
   ],
   "maintainers": [
