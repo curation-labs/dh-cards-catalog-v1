@@ -5,6 +5,16 @@
   "homepage": "https://github.com/curation-labs/dh-cards-catalog-v1",
   "cards": [
     {
+      "name": "coding-agent-session-bridge",
+      "url": "git+https://github.com/curation-labs/coding-agent-session-bridge.git#v1.0.0",
+      "description": "Coding-Agent Session Bridge — continue a local coding-agent session across boundaries: between tools (Codex and Claude Code) and between accounts (quota exhausted to new paid account). User-invoked.",
+      "tags": [
+        "claude-code",
+        "codex",
+        "session-migration"
+      ]
+    },
+    {
       "name": "critic",
       "url": "git+https://github.com/curation-labs/darwinian-critic.git#v0.1.0",
       "description": "Composable critic role: adversarially return a draft's gaps, unsupported claims, and likely errors. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
@@ -67,6 +77,16 @@
       "description": "Composable gap-filling role: close one named gap with sourced findings. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
     },
     {
+      "name": "interviewer",
+      "url": "git+https://github.com/curation-labs/interviewer.git#v1.0.0",
+      "description": "Interviewer — interview a person to elicit, develop, and record intent/preferences/decisions: adaptive interviewing + idea development + diverse-option sampling, persisting decisions via the Memory Curator. Subagent-invoked.",
+      "tags": [
+        "elicitation",
+        "interview",
+        "planning"
+      ]
+    },
+    {
       "name": "knowledge-docs",
       "url": "git+https://github.com/remyjkim/knowledge-docs-card.git#v1.0.0",
       "description": "Keep knowledge documentation in sync with the codebase: draft new docs from the code, audit existing docs for drift, and restructure them into a categorized hierarchy."
@@ -108,6 +128,16 @@
       ]
     },
     {
+      "name": "memory-curator",
+      "url": "git+https://github.com/curation-labs/memory-curator.git#v1.0.0",
+      "description": "Memory Curator — file-native memory worker: extract salient facts, consolidate (dedup/update, deterministic max-by-time + temporal invalidation, human-gated), and retrieve (reactive, relevance-gated) over a MEMORY.md index + one-fact files. No vector DB. Subagent-invoked.",
+      "tags": [
+        "curation",
+        "file-native",
+        "memory"
+      ]
+    },
+    {
       "name": "notion",
       "url": "git+https://github.com/curation-labs/notion.git#v0.1.0",
       "description": "Comprehensive Notion specialist. Full ntn CLI access (raw API, pages, databases, file uploads, workers) and an authoring layer for well-structured pages, safe edits, database queries, and disciplined writing, plus workflow skills for research write-ups, knowledge-base capture, spec-to-implementation tracking, and meeting prep.",
@@ -115,6 +145,16 @@
         "cli",
         "notion",
         "workspace"
+      ]
+    },
+    {
+      "name": "over-reliance-guardian",
+      "url": "git+https://github.com/curation-labs/over-reliance-guardian.git#v1.0.0",
+      "description": "Over-Reliance Guardian — keep a person cognitively engaged and prevent AI over-reliance/deskilling: detect passive rubber-stamping, re-engage indirectly (make them produce, not consume), and escalate to consented, guardrailed deliberate-error probes. Research-grounded. Subagent-invoked.",
+      "tags": [
+        "engagement",
+        "metacognition",
+        "over-reliance"
       ]
     },
     {
@@ -133,6 +173,16 @@
       "description": "Intent-aligned PR reviewer with structured JSON output and six-criterion rubric"
     },
     {
+      "name": "reasoning-red-teamer",
+      "url": "git+https://github.com/curation-labs/reasoning-red-teamer.git#v1.0.0",
+      "description": "Reasoning Red-Teamer — when a person has committed to a decision, stress-test their reasoning by getting them to generate the counter-case themselves (consider-the-opposite, pre-mortem, internal bias diagnosis) rather than imposing counter-arguments or playing devil advocate. Research-grounded. Subagent-invoked.",
+      "tags": [
+        "critical-thinking",
+        "debiasing",
+        "decision-making"
+      ]
+    },
+    {
       "name": "researcher",
       "url": "git+https://github.com/curation-labs/darwinian-researcher.git#v0.2.0",
       "description": "Composable research role: investigate one angle and return sourced findings, grounded with real-time web search (Parallel Search MCP). A deep-research panel role; reusable standalone."
@@ -141,26 +191,6 @@
       "name": "synthesizer",
       "url": "git+https://github.com/curation-labs/darwinian-synthesizer.git#v0.1.0",
       "description": "Composable synthesis role: merge findings into one answer-first, cited draft. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
-    },
-    {
-      "name": "interviewer",
-      "url": "git+https://github.com/curation-labs/interviewer.git#v1.0.0",
-      "description": "Interviewer — interview a person to elicit, develop, and record intent/preferences/decisions: adaptive interviewing + idea development + diverse-option sampling, persisting decisions via the Memory Curator. Subagent-invoked.",
-      "tags": [
-        "elicitation",
-        "interview",
-        "planning"
-      ]
-    },
-    {
-      "name": "memory-curator",
-      "url": "git+https://github.com/curation-labs/memory-curator.git#v1.0.0",
-      "description": "Memory Curator — file-native memory worker: extract salient facts, consolidate (dedup/update, deterministic max-by-time + temporal invalidation, human-gated), and retrieve (reactive, relevance-gated) over a MEMORY.md index + one-fact files. No vector DB. Subagent-invoked.",
-      "tags": [
-        "curation",
-        "file-native",
-        "memory"
-      ]
     },
     {
       "name": "work-planner",
@@ -173,34 +203,9 @@
       ]
     },
     {
-      "name": "over-reliance-guardian",
-      "url": "git+https://github.com/curation-labs/over-reliance-guardian.git#v1.0.0",
-      "description": "Over-Reliance Guardian — keep a person cognitively engaged and prevent AI over-reliance/deskilling: detect passive rubber-stamping, re-engage indirectly (make them produce, not consume), and escalate to consented, guardrailed deliberate-error probes. Research-grounded. Subagent-invoked.",
-      "tags": [
-        "over-reliance",
-        "engagement",
-        "metacognition"
-      ]
-    },
-    {
-      "name": "reasoning-red-teamer",
-      "url": "git+https://github.com/curation-labs/reasoning-red-teamer.git#v1.0.0",
-      "description": "Reasoning Red-Teamer — when a person has committed to a decision, stress-test their reasoning by getting them to generate the counter-case themselves (consider-the-opposite, pre-mortem, internal bias diagnosis) rather than imposing counter-arguments or playing devil advocate. Research-grounded. Subagent-invoked.",
-      "tags": [
-        "critical-thinking",
-        "debiasing",
-        "decision-making"
-      ]
-    },
-    {
-      "name": "coding-agent-session-bridge",
-      "url": "git+https://github.com/curation-labs/coding-agent-session-bridge.git#v1.0.0",
-      "description": "Coding-Agent Session Bridge — continue a local coding-agent session across boundaries: between tools (Codex and Claude Code) and between accounts (quota exhausted to new paid account). User-invoked.",
-      "tags": [
-        "session-migration",
-        "codex",
-        "claude-code"
-      ]
+      "name": "workflow-skills",
+      "url": "git+git@github.com:curation-labs/cl-workflow-card.git#v1.0.1",
+      "description": "Curation Labs org card: 13 customized workflow skills that reference .ai/rules/ for conventions, with a hook policy that enforces those conventions at runtime."
     }
   ],
   "maintainers": [
