@@ -44,6 +44,16 @@
       ]
     },
     {
+      "name": "diagram-patterns",
+      "url": "git+https://github.com/remyjkim/diagram-patterns.git#v0.1.0",
+      "description": "Design patterns for technical diagrams: layered system maps, invariant lanes, orthogonal edge grammar, color budgets, and flow isolation — with a verification protocol that treats diagrams as artifacts with behavior.",
+      "tags": [
+        "architecture",
+        "diagrams",
+        "visualization"
+      ]
+    },
+    {
       "name": "engineering-handoff-docs",
       "url": "git+https://github.com/curation-labs/engineering-handoff-docs.git#v0.1.1",
       "description": "Evidence-backed authoring and reconciliation of handoff-ready target architecture and HTML task-plan source-of-truth documents.",
