@@ -54,6 +54,17 @@
       ]
     },
     {
+      "name": "docs-writer-worker",
+      "url": "git+https://github.com/curation-labs/docs-writer-worker.git#v0.1.0",
+      "description": "Worker Blueprint for evidence-backed architecture and task-plan authoring, reconciliation, technical diagrams, and completion discipline.",
+      "tags": [
+        "architecture",
+        "blueprint",
+        "documentation",
+        "task-plan"
+      ]
+    },
+    {
       "name": "engineering-handoff-docs",
       "url": "git+https://github.com/curation-labs/engineering-handoff-docs.git#v0.1.1",
       "description": "Evidence-backed authoring and reconciliation of handoff-ready target architecture and HTML task-plan source-of-truth documents.",
