@@ -44,6 +44,16 @@
       ]
     },
     {
+      "name": "engineering-handoff-docs",
+      "url": "git+https://github.com/curation-labs/engineering-handoff-docs.git#v0.1.1",
+      "description": "Evidence-backed authoring and reconciliation of handoff-ready target architecture and HTML task-plan source-of-truth documents.",
+      "tags": [
+        "architecture",
+        "documentation",
+        "task-plan"
+      ]
+    },
+    {
       "name": "external-reporter",
       "url": "git+https://github.com/curation-labs/external-reporter.git#v1.0.0",
       "description": "Regular card for external-facing status reporting: bundles the reporting-progress-externally, avoiding-ai-fingerprints, svg-figure-workflow, and descriptive-terms-over-jargon skills plus Notion and Slack MCP. Subagent-invoked.",
