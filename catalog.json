@@ -213,6 +213,16 @@
       "description": "Composable synthesis role: merge findings into one answer-first, cited draft. A deep-research panel role; reusable standalone. Skill-only, no MCP servers."
     },
     {
+      "name": "unlazy",
+      "url": "git+https://github.com/curation-labs/darwinian-unlazy.git#v0.1.1",
+      "description": "Completion discipline for substantial autonomous agent work from Leonxlnx/unlazy: acceptance gates written before execution (GATES.md with CHECK/EXPECT), Depth Tree decomposition, approval-bounded runnable verification, evidence-based reporting, and parallel dispatch coordination. Runnable-evidence complement to prose verification skills.",
+      "tags": [
+        "completion",
+        "orchestration",
+        "verification"
+      ]
+    },
+    {
       "name": "work-planner",
       "url": "git+https://github.com/curation-labs/work-planner.git#v1.0.0",
       "description": "Work Planner — turn goals + a time budget into a prioritized, parallelized plan via well-known frameworks (SMART, Eisenhower, MoSCoW, Critical Path, three-point estimation, timeboxing) over recalled context. Subagent-invoked.",
